@@ -319,7 +319,7 @@ This step demonstrates how metadata can provide valuable evidence during forensi
 
 | Type | Value | Notes |
 |------|------|------|
-| Sender Domain | microapple.com | Claimed sender |
+| Sender Domain | billjobs@microapple.com | Claimed sender |
 | Reply-To Address | negeja3921@pashter.com | Different from sender |
 | Email Service | emkei.cz | Fake email service |
 | Authentication | SPF Failed | Unauthorized sending server |
