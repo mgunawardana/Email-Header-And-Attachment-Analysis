@@ -230,14 +230,20 @@ Although modern Office documents share ZIP signatures internally, the file exten
 <br>
 
 ![File signature verificationjpeg](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/File%20signature%20verification%20jpeg.png)
+<br>
+
 
 ![jpeg](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/jpeg.png)
+<br>
 
 ![File signature verificationpdf](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/File%20signature%20verification%20pdf.png)
+<br>
 
 ![pdf](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/pdf.png)
+<br>
 
 ![File signature verificationxlsx](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/File%20signature%20verification%20xlsx.png)
+<br>
 
 ![xlsx](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/xlsx.png)
 
@@ -257,8 +263,10 @@ The hidden content was decoded using **CyberChef**, revealing an additional mess
 <br>
 
 ![Hidden Base64 content discovered1](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Hidden%20Base64%20content%20discovered%201.png)
+<br>
 
 ![Hidden Base64 content discovered2](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Hidden%20Base64%20content%20discovered%202.png)
+<br>
 
 ![Hidden Base64 content discovered3](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Hidden%20Base64%20content%20discovered%203.png)
 
@@ -276,6 +284,7 @@ Although additional reputation checks against the observed infrastructure did no
 <br>
 
 ![Email infrastructure review](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Email%20infrastructure%20review%201.png)
+<br>
 
 ![Email infrastructure review2](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Email%20infrastructure%20review%202.png)
 
