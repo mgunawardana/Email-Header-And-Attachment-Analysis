@@ -303,7 +303,6 @@ This step demonstrates how metadata can provide valuable evidence during forensi
 | Phishing | T1566 |
 | Spearphishing Attachment | T1566.001 |
 | Obfuscated/Encoded Files | T1027 |
-| Archive Collected Data | T1560 |
 
 # Indicators of Compromise (IOCs)
 
