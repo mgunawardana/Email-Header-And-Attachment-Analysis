@@ -87,7 +87,7 @@ A dedicated virtual machine was used to safely analyze potentially malicious fil
 
 The provided email sample was extracted using **7-Zip**, and the raw email (`.eml`) file was opened in **Notepad++** for manual inspection.
 
-**Figure 1 – Email sample opened inside Notepad++**
+- **Figure 1 – Email sample opened inside Notepad++**
 <br>
 
 ![Email sample opened inside Notepad++](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Email%20sample%20opened%20inside%20Notepad%2B%2B.png)
@@ -117,12 +117,14 @@ Particular attention was given to the **Received** headers because they reveal t
 
 The first **Received** header represents the mail server closest to the recipient, while the final **Received** header represents the server closest to the sender.
 
-**Figure 2 – Email header analysis**
+- **Figure 2 – Email header analysis**
 <br>
 
 ![Email Header Analysis](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/email%20header%20analysis%20trial.png)
+<br>
 
-*You can find the complete walkthrough of analysing email header on my blog site: [Link]*
+**Note:** *You can find the complete walkthrough of analysing email header on my blog site: [Link]*
+
 
 ---
 
@@ -140,7 +142,7 @@ The investigation identified an **SPF failure**, indicating that the sending ser
 
 Failed authentication mechanisms are commonly used as indicators during phishing investigations.
 
-**Figure 3 – Authentication Results**
+- **Figure 3 – Authentication Results**
 <br>
 
 ![Authentication Results](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Authentication%20Result.png)
@@ -166,7 +168,7 @@ A mismatch was identified between the sender's domain and the Reply-To domain.
 
 This technique is commonly used in phishing campaigns to redirect user replies to an attacker-controlled mailbox.
 
-**Figure 4 – Sender and Reply-To comparison**
+- **Figure 4 – Sender and Reply-To comparison**
 <br>
 
 ![Sender and Reply-To comparison](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Sender%20and%20Reply-To%20comparison.png)
@@ -186,7 +188,7 @@ The Base64-encoded content was copied into **CyberChef** and decoded using the *
 
 The decoded output was saved as `email.txt` for further review.
 
-**Figure 5 – Base64 decoded using CyberChef**
+- **Figure 5 – Base64 decoded using CyberChef**
 <br>
 
 ![Base64 decoded using CyberChef](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Base64%20decoded%20using%20CyberChef.png)
@@ -205,7 +207,7 @@ Although advertised as a PDF, the file signature identified the attachment as a 
 
 This demonstrates why analysts should verify file signatures instead of relying solely on file extensions or MIME types.
 
-**Figure 6 – Attachment signature verification**
+- **Figure 6 – Attachment signature verification**
 <br>
 
 ![Attachment signature verification](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Base64%20decoded%20using%20CyberChef.png)
@@ -226,7 +228,7 @@ Each file was inspected using **HxD** to verify its actual file type by examinin
 
 Although modern Office documents share ZIP signatures internally, the file extension and internal structure confirmed the third file as a valid Excel spreadsheet.
 
-**Figure 7 – File signature verification**
+- **Figure 7 – File signature verification**
 <br>
 
 ![File signature verificationjpeg](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/File%20signature%20verification%20jpeg.png)
@@ -259,7 +261,7 @@ After selecting all cells and clearing formatting, hidden Base64-encoded text be
 
 The hidden content was decoded using **CyberChef**, revealing an additional message embedded by the attacker.
 
-**Figure 8 – Hidden Base64 content discovered**
+- **Figure 8 – Hidden Base64 content discovered**
 <br>
 
 ![Hidden Base64 content discovered1](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Hidden%20Base64%20content%20discovered%201.png)
@@ -280,7 +282,7 @@ Analysis of the **Received** headers identified **emkei.cz**, which is a web-bas
 
 Although additional reputation checks against the observed infrastructure did not identify known malicious indicators, the presence of a fake email service significantly strengthened the phishing assessment.
 
-**Figure 9 – Email infrastructure review**
+- **Figure 9 – Email infrastructure review**
 <br>
 
 ![Email infrastructure review](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Email%20infrastructure%20review%201.png)
@@ -298,7 +300,7 @@ Metadata analysis identified the document author's name, providing another attri
 
 This step demonstrates how metadata can provide valuable evidence during forensic investigations.
 
-**Figure 10 – Metadata extracted using ExifTool**
+- **Figure 10 – Metadata extracted using ExifTool**
 <br>
 
 ![Metadata extracted using ExifTool](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/Metadata%20extracted%20using%20ExifTool.png)
