@@ -123,7 +123,7 @@ The first **Received** header represents the mail server closest to the recipien
 ![Email Header Analysis](https://github.com/voidace2006-netizen/The-Planet-s-Prestige-Email-Header-And-Attachment-Analysis/blob/main/email%20header%20analysis%20trial.png)
 <br>
 
-**Note:** *You can find the complete walkthrough of analysing email header on my blog site: [Link]*
+**Note:** *You can find the complete walkthrough of analysing email header on my blog site: [Medium](https://mgunawardana.medium.com/deconstructing-a-phishing-email-a-step-by-step-header-analysis-investigation-8ddec9ea3c31?postPublishedType=initial)*
 
 
 ---
